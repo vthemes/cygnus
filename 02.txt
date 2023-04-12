@@ -587,9 +587,9 @@ p.tmblr-attribution {
 .comment:has(.photo-origin) {
     padding: 0px;
 }
-.comment:has(.npf_inst) p:empty {
-    padding-bottom: 27px;
-} 
+p:empty + .npf_inst {
+    padding-top: 27px;
+}
 .comment:has(.photo-origin) .user {
     padding: 0px 15px;
 }
@@ -602,7 +602,7 @@ p.tmblr-attribution {
     padding: 15px;    
 }
 .comment:has(.npf_inst) p:empty {
-    margin-top: -30px;
+    margin-top: -20px;
 }
 .comment:has(.notrb) {
     padding: 0px;
