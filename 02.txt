@@ -172,6 +172,8 @@ section {
     border-radius: 3px;
 }
 .postheader {
+    position: relative;
+    left: -1px;
     background-color: {color:sidebar};
     border: 1px solid {color:borders};
     box-shadow: 2px -2px 3px 0.5px rgba({RGBcolor:shadows}, 0.2);
@@ -179,7 +181,7 @@ section {
     margin-top: -50px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    width: 539.25px;
+    width: 540px;
 }
 .postheader svg {
     width: 15px;
@@ -748,7 +750,7 @@ blockquote p {
         width: 450px;
     }
     .postheader {
-        width: 449.5px;
+        width: 450px;
     }
     .poll-post a.poll-row {
         width: 425px;
