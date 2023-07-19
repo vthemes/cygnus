@@ -173,7 +173,7 @@ section {
 }
 .postheader {
     position: relative;
-    left: -1px;
+    left: -0.5px;
     background-color: {color:sidebar};
     border: 1px solid {color:borders};
     box-shadow: 2px -2px 3px 0.5px rgba({RGBcolor:shadows}, 0.2);
